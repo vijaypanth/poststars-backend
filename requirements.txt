@@ -7,7 +7,7 @@ chromadb==0.4.15
 beautifulsoup4==4.12.2
 requests==2.31.0
 newspaper3k==0.2.8
-PyMuPDF==1.23.8
+psycopg2-binary==2.9.10
 python-docx==0.8.11
 pdfminer.six==20221105
 spacy==3.7.2
