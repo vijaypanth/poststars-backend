@@ -18,7 +18,7 @@ def root():
 # CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # adjust if deploying
+    allow_origins=["http://localhost:3000","https://poststars-frontend.vercel.app",],  # adjust if deploying
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
